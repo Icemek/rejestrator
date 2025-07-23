@@ -1,0 +1,154 @@
+html, body {
+ margin: 0;
+ padding: 0;
+ background-color: #2d3540;
+}
+
+h1 {
+ background-color: #1d5bbf;
+ 
+ height: 54px;
+ position: fixed;
+ width: 100%;
+ top:0;
+ z-index: 1;
+ box-shadow: 0px 5px 10px 0px #011030;
+ margin:0px;
+}
+
+#tablica {
+ width: 250px;
+ height: auto;
+ margin:0px;
+ padding:0px;
+}
+
+#back-to-top{
+	width:250px;
+	height:54px;
+	padding:0px;
+	margin:0px;
+	padding-inline: 0px;
+    border-width: 0px;
+	background-color: #1d5bbf;
+}
+
+#search-bar{
+	background-color: #0b3aad;
+	top:0;
+	height: 40px;
+	width:300px;
+	border:0px;
+	position:absolute;
+	margin-top:5px;
+	margin-left:5px;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+
+#search-bar::placeholder {
+  color: #a9a9a9;
+  font-style: italic;
+  opacity: 0.7;
+  padding-left:1px;
+}
+
+#shortcuts {
+ background-color: #1d5bbf;
+ 
+ width: 250px; 
+ height: 100%;
+ position: fixed;
+ top:0;
+ left:0;
+ z-index: 0.9;
+ margin-top: 54px;
+}
+
+
+.skrt{	
+	width:250px;
+	margin-top:3px;
+	margin-bottom:3px;
+	padding:5px;
+	color: #07234f;
+	background-color: #1500ff;
+	border:0px;
+	box-shadow: 0px 1px 5px 0px #011030;
+	font-size: 25px;
+	
+}
+
+.skrt:hover {
+	
+	box-shadow: 0px 0px 5px 3px #011030;
+}
+
+.chapters {
+	font-size: 25px;
+	font-family: Calibri;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom:25px;
+	margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.artykuly {
+	background-color: #2d3540;
+	color: white;
+	font-size: 20px;
+	
+	
+	margin-top: 54px;
+	margin-left: 250px;
+	
+	
+}
+	
+
+.artykul {
+ font-family: Calibri;
+ margin: 10px;
+ box-shadow: 0px 0px 3px 1px #011030;
+ padding:15px;
+}
+
+.art {
+  font-weight: bold;
+  margin-top:0px;
+}
+
+.line1 {
+  padding-left:0px;
+}
+
+.line2 {
+  padding-left:20px;
+}
+
+.line3 {
+  padding-left:40px;
+}
+
+.line4 {
+  padding-left:60px;
+}
+
+.line5 {
+  padding-left:80px;
+}
+
+footer {
+  background-color: #1d5bbf;
+  margin-left: 250px;
+  font-family: Arial;
+  font-size: 25px;
+  padding:5px;
+}
+
+footer p {
+      text-align: center;
+	  margin: 0px;
+	  color: white;
+    }
