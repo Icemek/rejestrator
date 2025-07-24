@@ -53,6 +53,31 @@ h1 {
   padding-left:1px;
 }
 
+.docsy{
+	float:right;
+	text-decoration:none;
+	color:white;
+	width:150px;
+	height:54px;
+	font-size:18px;
+	font-family:calibri;
+	border-left: 1px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #060142;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	background-color: #1d5bbf;
+	justify-content: center
+	
+}
+.docsy:hover{
+	background-color: #0c4aae;
+}
+
 #shortcuts {
  background-color: #1d5bbf;
  
@@ -71,8 +96,8 @@ h1 {
 	margin-top:3px;
 	margin-bottom:3px;
 	padding:5px;
-	color: #07234f;
-	background-color: #1500ff;
+	color: #c2c3c4;
+	background-color: #060142;
 	border:0px;
 	box-shadow: 0px 1px 5px 0px #011030;
 	font-size: 25px;
@@ -81,7 +106,7 @@ h1 {
 
 .skrt:hover {
 	
-	box-shadow: 0px 0px 5px 3px #011030;
+	box-shadow: 0px 0px 5px 3px #ffffff;
 }
 
 .chapters {
@@ -141,7 +166,7 @@ h1 {
 
 footer {
   background-color: #1d5bbf;
-  margin-left: 250px;
+  margin-left: 0;
   font-family: Arial;
   font-size: 25px;
   padding:5px;
@@ -152,3 +177,27 @@ footer p {
 	  margin: 0px;
 	  color: white;
     }
+
+
+.pdfy{
+		height:100vh;
+		width:100%;
+		margin-top: 54px;
+		margin-left: -2px;
+		margin-bottom: -2px;
+}
+
+#pliki{
+		margin-top:60px;
+		height:100%;
+		width:100%
+		
+}
+
+.linki{
+	text-decoration:none;
+	font-size:20px;
+	font-family:calibri;
+	color:white;
+	padding:5px;
+}
